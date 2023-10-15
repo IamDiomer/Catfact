@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="button-container">
+      <button pButton (click)="cambiarMensaje()" icon="pi pi-external-link" label="Cambiar Mensaje" class="center-button"></button>
+    </div>
+  
+    <div class="card-container">
+      <p-card header="Did you know?" [style]="{ 'width.px': 420, 'margin-top.px':2 }">
+        <ng-template pTemplate="header">
+          <img alt="Card" src="https://pbs.twimg.com/profile_banners/961750134676709378/1575186936/1500x500" />
+        </ng-template>
+        <p>
+          Fact: {{ catFact.fact }}
+        </p>
+        <p>
+            Length: {{ catFact.length }}
+          </p>
+      </p-card>
+    </div>
+  </div>
+  
