@@ -6,6 +6,7 @@ import { MensajesComponent } from './mensajes/mensajes.component';
 
 const routes: Routes = [
   { path: 'mensajes', component: MensajesComponent },
+  { path: '', redirectTo: '/mensajes', pathMatch: 'full' }
 
 ];
 

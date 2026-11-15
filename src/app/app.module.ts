@@ -17,7 +17,7 @@ import { ButtonModule } from 'primeng/button';
     AppRoutingModule,
     HttpClientModule,
     CardModule,
-    ButtonModule, 
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
